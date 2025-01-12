@@ -1,7 +1,6 @@
 /* body style */
-.container{
-    min-width: 1280px;
-    padding: 0 160px;
+body{
+    background-color: #F1F1F3;
 }
 
 header{
@@ -164,6 +163,7 @@ section{
 /* card description style*/
 
 .card-description{
+    background-color: #ffffff;
     width: 1280px;
     padding: 24px 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -215,4 +215,64 @@ section{
     font-size: 16px;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.news-card{
+    display: flex;
+    align-items:last baseline;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 48px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.news-img{
+    border-radius: 24px;
+}
+
+.news-title{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Fira Sans';
+}
+
+.news-subtitle{
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);  
+}
+
+.news-name{
+    width: 134px;
+}
+
+.news-text{
+    text-align: start;
+}
+
+.news-date{
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-date span{
+    margin-left: 10px;
+}
+
+.news-btn{
+    padding: 13px 26px;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 15px;
 }

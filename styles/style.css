@@ -276,3 +276,82 @@ section{
     border-radius: 8px;
     margin-top: 15px;
 }
+
+/* Donate Style  */
+
+.donate{
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate .donate-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Fira Sans';
+    color: #0E0E0E;
+}
+
+.donate .donate-subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Fira Sans';
+    line-height: 24px;
+    font-size: 'Fira Sans';
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.donate .donate-price{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 32px;
+}
+
+.active{
+    background-color: #C6E4D6;
+}
+
+.donate-price .price{
+    padding: 0 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.price:hover{
+    background-color: #C6E4D6;
+}
+
+.price-tag{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Fira Sans';
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.donate input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fira Sans';
+    padding: 0 40px;
+    width: 1032px;
+    height: 64px;
+    color: rgba(14, 14, 14, 0.30);
+}
+
+.donate .donate-btn{
+    padding: 17px 34px;
+    margin-top: 32px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-weight: 600;
+}
